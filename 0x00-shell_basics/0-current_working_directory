@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Get the root directory of the Git repository
-root_dir=$(git rev-parse --show-toplevel)
-
-# Print the absolute path of the root directory
 echo "Current working directory: $root_dir"
-
